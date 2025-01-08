@@ -1,5 +1,21 @@
 # B2-Cyber - Programmation système
 
+```txt
+Programmation système (B2)
+
+Niveau: Bachelor 2
+Rythme: Tronc commun 
+
+Format de l’évaluation
+50% contrôle continu (format apprécié: travaux pratiques)
+50% partiel
+
+Objectifs pédagogiques: 
+* Maîtriser l’architecture matérielle des ordinateurs (processeur, mémoire, périphériques entrée/sortie) - rappelle B1 “Architecture des ordinateurs”
+* Programmer en C: syntaxe, structures de contrôle (boucles, conditions), types de données, fonctions, pointeurs, tableaux, structures, unions
+* Comprendre les mécanismes de gestion des processus et threads au niveau du système d’exploitation 
+```
+
 
 yohann.zapart@gmail.com
 
