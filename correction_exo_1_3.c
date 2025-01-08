@@ -22,8 +22,15 @@ int main() {
     int compteur = 0;
 
     // On parcourt le tableau
-    // ...
+    // A chaque que l'on rencontre le nombre recherché, on incrémente le compteur de 1
+    for (int i = 0; i < 10; i++) {
+        if (tableau[i] == nombre) {
+            compteur++;  // revient à faire: compteur = compteur + 1;
+        }
+    }
 
+    // On affiche le résultat
+    printf("Le nombre %d apparaît %d fois dans le tableau.\n", nombre, compteur);
 
     return 0;
 }
