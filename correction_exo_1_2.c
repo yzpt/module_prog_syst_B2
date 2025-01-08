@@ -62,6 +62,9 @@ int main() {
     // Pas facile au début mais à maîtriser absolument.
     // https://www.youtube.com/shorts/L3cAPN-YNEM
 
+
+    // bloc de code du tri à bulles, tenter de le comprendre, c'est un classique
+    // Si vous ne le comprenez, c'est normal, l'important est de savoir l'utiliser, le placer dans le bon ordre et l'adapter à votre besoin. Dans ce cas là, on peut le considérer comme une "boite noire" : un procédé qu'on ne comprend pas mais dont on bénéficie des résultats.
     for (int i = 0; i < 9; i++) {
         int minIndex = i;
         for (int j = i + 1; j < 10; j++) {
