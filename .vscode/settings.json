@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "random_numbers.h": "c",
+        "stdio.h": "c"
+    }
+}
