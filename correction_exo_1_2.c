@@ -85,3 +85,26 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+/*
+Sortie attendue :
+
+❯ gcc correction_exo_1_2.c -o exo && ./exo
+Le minimum est: 1
+Le maximum est: 86
+1
+3
+5
+7
+9
+11
+12
+13
+62
+86
+
+*/
