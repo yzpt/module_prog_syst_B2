@@ -13,7 +13,7 @@ int main() {
     printf("a = %d (adresse: %p)\n", a, &a);
     printf("pointeur_a = %p\n", pointeur_a);
 
-    a = 20;
+    a = 'string';
     *pointeur_a = 30;
 
     printf("la valeur stockée à l'adresse %p est %d\n", pointeur_a, *pointeur_a);

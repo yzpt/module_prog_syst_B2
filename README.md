@@ -17,7 +17,12 @@ Votre meilleur ami : Run Selected Text In Active Terminal
 - https://www.geeksforgeeks.org/c-cheatsheet/
 - https://www.codewithharry.com/blogpost/c-cheatsheet/
 - https://www.tutorialspoint.com/cprogramming/c_language_cheatsheet.htm
-- 
+
+
+# Cannels googd:
+- Tech with Nana: https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA
+- NeuralNine: https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA
+- ArjanCodes: https://www.youtube.com/@ArjanCodes
 
 
 
