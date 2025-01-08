@@ -13,6 +13,12 @@ Sous VSCODE : Ctrl + K -> Ctrl + S pour ouvrir la liste des raccourcis claviers.
 Votre meilleur ami : Run Selected Text In Active Terminal
 ![alt text](image.png)
 
+### CheatSheets:
+- https://www.geeksforgeeks.org/c-cheatsheet/
+- https://www.codewithharry.com/blogpost/c-cheatsheet/
+- https://www.tutorialspoint.com/cprogramming/c_language_cheatsheet.htm
+- 
+
 
 
 ### [2.0.exos_progressifs.md](2.0.exos_progressifs.md)
@@ -28,9 +34,5 @@ Soyez proactifs dans votre apprentissages !
 
 
 
-### [2.1.exos_tableaux_pointeurs.md](2.1.exos_tableaux_pointeurs.md)
-
-Il faut absolument maîtriser la manipulation de tableaux, avec ou sans pointeurs.
-- accéder/lire les valeurs d'un tableau
-- analyser les valeurs
-- **Trier un tableau** avec plusieurs méthodes
+- Exos 1, 2 et 3 : copier/comprendre la correction
+- Exos
