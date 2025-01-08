@@ -36,17 +36,27 @@ int main() {
     // Si c'est le cas, on met à jour min avec cette nouvelle valeur.
     // Sinon, min conserve sa valeur actuelle.
 
-    // boucle for :
-    // ...
-}
+    // Pour chaque valeur du tableau:
+    for (int i= 0; i<10; i++) {
+
+        // Si la valeur actuelle est inférieure à min, on met à jour min, autrement on ne fait rien et on passe à la valeur suivante
+        if (tab[i] < min) {
+            min = tab[i];
+        }
+    }
 
 
 
     // 3. Trouver le maximum
+    int max = tab[0];
+    //... idem que pour la recherche du minimum, avec une légère différence
 
 
     // 4. Tri du tableau
+    // Pas facile au début mais à maîtriser absolument.
     // https://www.youtube.com/shorts/L3cAPN-YNEM
 
 
+
     // 5. Affichage du tableau trié
+}
