@@ -45,18 +45,40 @@ int main() {
         }
     }
 
+    printf("Le minimum est: %d\n", min);
 
 
     // 3. Trouver le maximum
     int max = tab[0];
     //... idem que pour la recherche du minimum, avec une légère différence
-
+    for (int i= 0; i<10; i++) {
+        if (tab[i] > max) {
+            max = tab[i];
+        }
+    }
+    printf("Le maximum est: %d\n", max);
 
     // 4. Tri du tableau
     // Pas facile au début mais à maîtriser absolument.
     // https://www.youtube.com/shorts/L3cAPN-YNEM
 
-
+    for (int i = 0; i < 9; i++) {
+        int minIndex = i;
+        for (int j = i + 1; j < 10; j++) {
+            if (tab[j] < tab[minIndex]) {
+                minIndex = j;
+            }
+        }
+        // Échanger les éléments
+        int temp = tab[i];
+        tab[i] = tab[minIndex];
+        tab[minIndex] = temp;
+    }
 
     // 5. Affichage du tableau trié
+    for (int i = 0; i < 10; i++) {
+        printf("%d\n", tab[i]);
+    }
+
+    return 0;
 }
