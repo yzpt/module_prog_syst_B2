@@ -13,7 +13,16 @@ int main() {
     // On utilise un tableau prédéfini plutôt que de réclamer à l'utilisateur de rentrer 10 nombres
     int tableau[10] = {56, 12, 6, 56, 8, 56, 12, 56, 56, 56};
 
-    
+    // On demande à l'utilisateur de rentrer un nombre
+    int nombre;
+    printf("Entrez un nombre : ");
+    scanf("%d", &nombre);
+
+    // On déclare une variable pour compter le nombre d'occurences (un compteur)
+    int compteur = 0;
+
+    // On parcourt le tableau
+    // ...
 
 
     return 0;
