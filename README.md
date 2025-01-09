@@ -52,11 +52,11 @@ Votre meilleur ami : Run Selected Text In Active Terminal
 
 # 2.0 Exercices progressifs [2.0.exos_progressifs.md](2.0.exos_progressifs.md)
 - (Ouvrir le visualisateur Markdwon avec le raccourci "Ctrl + Shift + V" dans VSCode afin de masquer les réponses.)
-  <img src="image-6.png" alt="alt text" style="max-width: 500px;">
+  <img src="img/image-6.png" alt="alt text" style="max-width: 500px;">
 
 ### Tutoriel sélectionné : "TUTOS C" de la chaine PrimFX
 - https://www.youtube.com/watch?v=3Fr-BVdrAk0&list=PLEagTQfI6nPOWS4JPnxW5pRVgeyLuS5oC&ab_channel=Boris%28%27PrimFX%27%29
-<img src="image-5.png" alt="alt text" style="max-width: 500px;">
+<img src="img/image-5.png" alt="alt text" style="max-width: 500px;">
 
 
 - Soyez proactifs dans votre apprentissages !
@@ -76,21 +76,21 @@ Votre meilleur ami : Run Selected Text In Active Terminal
 - Afin que je puisse examiner vos travaux dans les bonnes pratiques. 
 - Il est indispensable de maîtriser git et github pour votre carrière professionnelle. Il n'est jamais trop tard pour commencer.
 - Capsule vidéo [(tuto_repo_github.mp4)](tuto_repo_github.mp4) pour vous aider à créer et uploader des fichiers depuis le site web de github.
-  <img src="image-4.png" alt="alt text" style="max-width: 300px;">
+  <img src="img/image-4.png" alt="alt text" style="max-width: 300px;">
 
 <hr>
 
 ## 2.1. Exercices sur les tableaux à maîtriser complètement : [2.1.exos_tableaux.md](2.1.exos_tableaux.md)
 
 - Ressource vidéo sélectionnée : https://youtu.be/pAT3Nbp-utE?si=7D1dAXpuV5obQGWr
-<img src="image-2.png" alt="alt text" style="max-width: 300px;">
+<img src="img/image-2.png" alt="alt text" style="max-width: 300px;">
 
 <hr>
 
 ## 2.2. Exercices sur les pointeurs : [2.2.exos_pointeurs.md](2.2.exos_pointeurs.md)
 
 - Vidéos :
-  ![alt text](image-3.png)
+  ![alt text](img/image-3.png)
   
 - Les pointeurs, introduction : https://youtu.be/iVK2YIhi6lE?si=wPfHveKnt5JRco0a
 - Pointeurs et tableaux : https://youtu.be/ipxT2_2T3qs?si=v9W7kY40JL-ZMUbx
