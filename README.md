@@ -124,18 +124,17 @@ Ce projet consiste à créer un programme qui permet de gérer un répertoire da
 - Numéro de téléphone (sur 10 chiffres sans espace)
 - Adresse mail
 
-- Maximum de 50 personnes.
-- Chaque champ sera défini sous la forme d’un tableau de 30 chaînes de caractères. Pour gérer les chaînes de caractères, nous utiliserons les fonctions de la bibliothèque `<string.h>`.
+Maximum de 50 personnes.
+Chaque champ sera défini sous la forme d’un tableau de 30 chaînes de caractères. Pour gérer les chaînes de caractères, nous utiliserons les fonctions de la bibliothèque `<string.h>`.
 
 #### Guide 
 
-1. Définir les variables à utiliser (nombre, nom, type); Préciser comment seront déclarées ces variables (locales ou globales).
-2. Écrire une fonction qui permet d’ajouter une personne dans le répertoire.
-3. Écrire une fonction qui permet d’afficher le contenu du répertoire.
-4. Écrire une fonction qui permet de rechercher une personne dans le répertoire en spécifiant son numéro de téléphone.
+1. Écrire une fonction qui permet d’ajouter une personne dans le répertoire.
+2. Écrire une fonction qui permet d’afficher le contenu du répertoire.
+3. Écrire une fonction qui permet de rechercher une personne dans le répertoire en spécifiant son numéro de téléphone.
    - Prévoir le cas où la personne recherchée n’est pas dans le répertoire.
    - Pour simplifier le problème, on suppose que chaque numéro de téléphone est unique.
-5. Imaginer d’autres fonctions pour permettre la manipulation d’un tel répertoire.
+4. Imaginer d’autres fonctions pour permettre la manipulation d’un tel répertoire.
 
 <div style="text-align: center; color: pink; font-size: 1.2em;">
 Libre à vous d'imaginer d'autres projets: facturation, gestion de compte bancaire, etc.
