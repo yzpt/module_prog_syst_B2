@@ -100,11 +100,11 @@ Votre meilleur ami : Run Selected Text In Active Terminal
 ## 3 Les Threads
 
 - Tâches asynchrones en programmation : comprendre la notion de Thread et de fil d'exécution en code - Purple Giraffe
-  https://www.youtube.com/watch?v=AoyT1UkyZnc&ab_channel=PurpleGiraffe
+- https://www.youtube.com/watch?v=AoyT1UkyZnc&ab_channel=PurpleGiraffe
   <img src="img/image-7.png" alt="alt text" style="max-width: 500px;">
 
 - Langage C #17 (les threads) - Coding Overflow
-  https://www.youtube.com/watch?v=o_GbRujGCnM&t=901s&ab_channel=CodingOverflow
+- https://www.youtube.com/watch?v=o_GbRujGCnM&t=901s&ab_channel=CodingOverflow
   <img src="img/image-8.png" alt="alt text" style="max-width: 500px;">
 
 
