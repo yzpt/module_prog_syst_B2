@@ -97,7 +97,7 @@ Votre meilleur ami : Run Selected Text In Active Terminal
 
 <hr>
 
-## 3 Les Threads
+## 3 Les Threads : [2.3.exos_threads.md](2.3.exos_threads.md)
 
 - Tâches asynchrones en programmation : comprendre la notion de Thread et de fil d'exécution en code - Purple Giraffe
 - https://www.youtube.com/watch?v=AoyT1UkyZnc&ab_channel=PurpleGiraffe
