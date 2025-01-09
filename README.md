@@ -36,7 +36,7 @@ D'autres ressources disponibles dans le fichier [1.1.resources.md](1.1.ressource
 Abusez des raccourcis claviers pour gagner en efficacité !
 Sous VSCODE : Ctrl + K -> Ctrl + S pour ouvrir la liste des raccourcis claviers.
 Votre meilleur ami : Run Selected Text In Active Terminal
-![alt text](image.png)
+![alt text](img/image-0.png)
 
 ### 0.3. CheatSheets:
 - https://www.geeksforgeeks.org/c-cheatsheet/
@@ -105,6 +105,7 @@ Votre meilleur ami : Run Selected Text In Active Terminal
 | Tâches asynchrones en programmation : comprendre la notion de Thread et de fil d'exécution en code - Purple Giraffe <br><br>https://www.youtube.com/watch?v=AoyT1UkyZnc&ab_channel=PurpleGiraffe | ![alt text](img/image-7.png) |
 | Langage C #17 (les threads) - Coding Overflow <br><br> https://www.youtube.com/watch?v=o_GbRujGCnM&t=901s&ab_channel=CodingOverflow | ![alt text](img/image-8.png) |
 
+<hr>
 
 ## 2.4 Chaines de caractères et structures: projet.
 
@@ -123,9 +124,8 @@ Ce projet consiste à créer un programme qui permet de gérer un répertoire da
 - Numéro de téléphone (sur 10 chiffres sans espace)
 - Adresse mail
 
-Chaque champ sera défini sous la forme d’un tableau de 50 chaînes de caractères. Pour gérer les chaînes de caractères, nous utiliserons les fonctions de la bibliothèque `<string.h>`.
-
-
+- Maximum de 50 personnes.
+- Chaque champ sera défini sous la forme d’un tableau de 30 chaînes de caractères. Pour gérer les chaînes de caractères, nous utiliserons les fonctions de la bibliothèque `<string.h>`.
 
 #### Guide 
 
@@ -137,11 +137,32 @@ Chaque champ sera défini sous la forme d’un tableau de 50 chaînes de caract�
    - Pour simplifier le problème, on suppose que chaque numéro de téléphone est unique.
 5. Imaginer d’autres fonctions pour permettre la manipulation d’un tel répertoire.
 
-#### Libre à vous d'imaginer d'autres projets: facturation, gestion de compte bancaire, etc.
+<div style="text-align: center; color: pink; font-size: 1.2em;">
+Libre à vous d'imaginer d'autres projets: facturation, gestion de compte bancaire, etc.
+</div>
 
-#### Base de code
+#### Base de code pour bien démarrer:
 
 ```c
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_PERSONNES 50
+#define MAX_CHAINE 30
+
+// Définition de la structure pour une personne
+typedef struct {
+    char nom[MAX_CHAINE];
+    char prenom[MAX_CHAINE];
+    char telephone[11]; // 10 chiffres + '\0'
+    char email[MAX_CHAINE];
+} Personne;
+
+// Déclaration du répertoire et du nombre de personnes
+Personne repertoire[MAX_PERSONNES];
+int nbPersonnes = 0;
+
+
 int main()
 {
     int Action;
