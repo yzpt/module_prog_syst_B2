@@ -250,7 +250,8 @@ Si vous avez des doutes ou des questions, n’hésitez pas à demander avant la 
 
 ### 5. Documentation  
 - **Commentaires dans le code :**  
-  Expliquez clairement la logique de votre programme et décrivez les paramètres, retours et rôles des fonctions.  
+  Expliquez clairement la logique de votre programme et décrivez les paramètres, retours et rôles des fonctions.
+  Une à deux lignes pour chaque fonction ou bloc de code.
 
 ---
 
