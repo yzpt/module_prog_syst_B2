@@ -116,7 +116,7 @@ Votre meilleur ami : Run Selected Text In Active Terminal
 | Chaînes de caractères en C<br><br>https://youtu.be/LaJLzx9Qi_0?si=mcFBuC8EHccc3rQK | <img src="img/image-9.png" alt="alt text" style="max-width: 500px;"> |
 | Structures <br><br>https://youtu.be/JsUSp4cf_2w?si=CLt0S0iVYIHoMt28 | <img src="img/image-10.png" alt="alt text" style="max-width: 500px;"> |
 
-### 2.4.2. Projet incluant l'utilisation de structures et chaines de caractères:
+### 2.4.2. Projet incluant l'utilisation de structures, de tableaux et chaines de caractères:
 
 Ce projet consiste à créer un programme qui permet de gérer un répertoire dans lequel seront enregistrés pour chaque personne les champs suivants:
 - Nom
@@ -190,3 +190,143 @@ int main()
     return 0;
 }
 ```
+
+<hr>
+
+# 3. Evaluation : projet à rendre pour le dimanche 19 janvier 23:59 dernier délai.
+
+## Objectif  
+Réalisez un mini-projet en langage C permettant de gérer des données structurées. Ce projet doit démontrer votre compréhension des concepts fondamentaux de la programmation en C, notamment l’utilisation des structures, des tableaux, des pointeurs, et des fonctions.
+
+<div style="text-align: center; color: pink; font-size: 1.2em;">
+Si vous avez des doutes ou des questions, n’hésitez pas à demander avant la deadline.
+</div>
+
+---
+
+## Exigences techniques  
+
+### 1. Structures de données  
+- Définissez une ou plusieurs **structures personnalisées** pour stocker les données.  
+- Chaque structure doit contenir des champs de types variés :  
+  - **Obligatoire :**  
+    - Entiers (`int`)  
+    - Nombres décimaux (`float` ou `double`)  
+    - Chaînes de caractères (`char[]`)  
+
+---
+
+### 2. Organisation des données  
+- Les instances des structures doivent être stockées dans un ou plusieurs **tableaux** (de taille fixe).  
+
+---
+
+### 3. Fonctions à implémenter  
+- **Ajout de données :**  
+  Une fonction permettant de créer et ajouter une nouvelle instance à votre tableau.  
+
+- **Modification de données :**  
+  Une fonction pour mettre à jour une ou plusieurs propriétés d’une instance existante.  
+
+- **Suppression de données :**  
+  Une fonction pour supprimer une instance du tableau.  
+
+- **Affichage des données :**  
+  Une fonction pour afficher tout ou partie des données de manière lisible à l’utilisateur (formatage soigné).  
+
+---
+
+### 4. Fonctionnalités avancées (obligatoire dans **au moins une fonction**)  
+- **Tri des données :**  
+  Implémentez un algorithme de tri (ex : tri par insertion ou par sélection) pour réorganiser les données selon un critère (par exemple, par ordre alphabétique, ou par une valeur numérique croissante/décroissante).  
+
+- **Recherche :**  
+  Ajoutez une fonctionnalité permettant de rechercher des données spécifiques (par exemple, recherche par nom, identifiant, ou tout autre champ).  
+
+- **Utilisation d’un pointeur :**  
+  Une des fonctions ci-dessus doit utiliser explicitement des **pointeurs** pour manipuler les données ou parcourir le tableau.  
+
+---
+
+### 5. Documentation  
+- **Commentaires dans le code :**  
+  Expliquez clairement la logique de votre programme et décrivez les paramètres, retours et rôles des fonctions.  
+
+---
+
+### 6. Validation des données (optionnel mais recommandé)  
+- Ajoutez des vérifications pour éviter les entrées invalides (ex : une note négative, un nom vide, etc.).
+
+---
+
+### 7. Exécution du programme  
+- Le programme doit être interactif et permettre à l’utilisateur de naviguer entre les fonctionnalités via un menu (par exemple, une boucle `do-while` avec des options numérotées).  
+
+---
+
+## Critères d'évaluation  
+- Respect des consignes techniques et utilisation correcte des concepts (structures, tableaux, pointeurs, etc.).  
+- Lisibilité du code (indentation, commentaires, nommage des variables et fonctions).  
+- Fonctionnement global du programme (absence d’erreurs à l’exécution, interactions utilisateur claires et intuitives).  
+
+---
+
+## Rendu attendu  
+- Un fichier source `.c` contenant votre programme complet.  
+- (Facultatif mais encouragé) Un fichier texte explicatif ou un README décrivant votre projet, son utilisation et son fonctionnement.  
+- **Deadline :** Dimanche 19 janvier à 23h59. Tout retard entraînera une pénalité.  
+
+---
+
+## Exemple d'idées de thèmes  
+
+# Idées de mini-projets en C
+
+
+## Gestion d'une boutique en ligne  
+**Champs possibles dans les structures :**  
+- Nom de l'article  
+- Prix  
+- Quantité en stock  
+- Catégorie (électronique, vêtements, etc.)  
+---
+
+## Gestion des notes d'une classe  
+**Champs possibles dans les structures :**  
+- Nom  
+- Prénom  
+- Numéro d’étudiant  
+- Notes (tableau de floats)  
+- Moyenne générale  
+---
+
+## Gestion d'un carnet de santé  
+**Champs possibles dans les structures :**  
+- Nom de l’animal  
+- Espèce  
+- Âge  
+- Poids  
+- Date des derniers vaccins (chaîne de caractères)  
+---
+
+## Gestion des tâches d'un projet  
+**Champs possibles dans les structures :**  
+- Nom de la tâche  
+- Priorité (basse, moyenne, haute)  
+- Date d’échéance (chaîne de caractères)  
+- Statut (en cours, terminé)  
+---
+
+## Gestion des réservations d'hôtel  
+**Champs possibles dans les structures :**  
+- Nom du client  
+- Date d’arrivée et de départ (chaînes)  
+- Type de chambre  
+- Nombre de nuits  
+
+**Fonctions à implémenter :**  
+- Ajouter une réservation  
+- Modifier une réservation (dates ou type de chambre)  
+- Supprimer une réservation  
+- Rechercher une réservation (par nom de client)  
+- Trier les réservations (par date d’arrivée ou type de chambre)  
