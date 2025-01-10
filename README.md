@@ -263,6 +263,9 @@ Si vous avez des doutes ou des questions, n’hésitez pas à demander avant la 
 ### 7. Exécution du programme  
 - Le programme doit être interactif et permettre à l’utilisateur de naviguer entre les fonctionnalités via un menu (par exemple, une boucle `do-while` avec des options numérotées).  
 
+### 8. Intégration de données prédéfinies
+- Vous devez intégrer des données prédéfinies dans votre programme. Par exemple, un tableau de structures initialisé avec des valeurs par défaut: quelques livres, quelques étudiants, des notes, etc.
+
 ---
 
 ## Critères d'évaluation  
