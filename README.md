@@ -274,8 +274,8 @@ Si vous avez des doutes ou des questions, n’hésitez pas à demander avant la 
 
 ## Rendu attendu  
 - Un fichier source `.c` contenant votre programme complet.  
-- (Facultatif mais encouragé) Un fichier texte explicatif ou un README décrivant votre projet, son utilisation et son fonctionnement.  
-- **Deadline :** Dimanche 19 janvier à 23h59. Tout retard entraînera une pénalité.  
+
+- **Deadline :** Dimanche 19 janvier à 23h59, je consulterai vos repos à ce moment-là.
 
 ---
 
