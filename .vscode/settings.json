@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "random_numbers.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "utilisation d'un pointeur pour calculer une somme d'un tableau": "cpp"
     }
 }
